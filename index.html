@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT-AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--MAIN CSS-->
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Portfolio</title>
+</head>
+
+<body>
+    <!--HEADER DESIGN-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Projects</a>
+            <a href="#contact">Contacts</a>
+        </nav>
+    </header>
+    <!--HOME SECTON DESIGN-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Shruti Waghmare</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>who loves solving problems with technology. I enjoy working with others to build great software that
+                makes life easier. I pay attention to the details and always try to come up with new ideas. I'm here to
+                help create something awesome!</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/shruti-waghamare-641049259/"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/ShrutiWaghamare"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/shrutx._.i/?next=%2F"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="C:\Users\hp\Desktop\portfolio\Shruti Waghamare.pdf" class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="profile.jpg" alt="">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="profile1.webp" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Software Engineer</h3>
+            <p>Hi there, I'm Shruti! A software engineer who's deeply passionate about coding, data analysis, and
+                project management. When I'm not busy with tech, you'll often find me lost in the rhythm of dance or out
+                on the field, enjoying a good game. I believe in striking a balance between creativity and analytical
+                thinking, making me a versatile individual in both the tech and artistic spheres.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!--SERVICE SECTION DESIGN-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p> I've been deeply involved in web development, working on projects that excite me. Whether it's
+                    crafting frontend solutions for website scraping or designing user-friendly ERP login interfaces, I
+                    find joy in creating seamless online experiences. Let's collaborate to bring your digital ideas to
+                    life!</p>
+                <button id="btn-1" class='btn read-more-btn1'>Read More</button>
+                <!-- The popup box -->
+                <div id="myModal1" class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab impedit tenetur quos sint,
+                            aliquid voluptate totam fugiat iste consectetur ad ratione officiis magni nisi, distinctio
+                            adipisci possimus reiciendis cum corrupti.?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-android"></i>
+                <h3>Android Development</h3>
+                <p>Just stepping into the world of Android development has me brimming with excitement. While I'm new to
+                    this journey, I'm eager to explore and create innovative mobile applications. Stay tuned for some
+                    exciting projects as I embark on this new adventure!</p>
+                <button href="#" class='btn read-more-btn'>Read More</button>
+                <!-- The popup box -->
+                <div id="myModal2" class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab impedit tenetur quos sint,
+                            aliquid voluptate totam fugiat iste consectetur ad ratione officiis magni nisi, distinctio
+                            adipisci possimus reiciendis cum corrupti.?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-brands fa-aws"></i>
+                <h3>AWS</h3>
+                <p>My journey in AWS architecture has been focused on designing solutions for algorithmic trading. I'm
+                    passionate about optimizing performance and ensuring reliability, especially in critical financial
+                    operations. Let's work together to build a robust and efficient system for your needs.</p>
+                <a href="#" class='btn read-more-btn'>Read More</a>
+                <!-- The popup box -->
+                <div id="myModal3" class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab impedit tenetur quos sint,
+                            aliquid voluptate totam fugiat iste consectetur ad ratione officiis magni nisi, distinctio
+                            adipisci possimus reiciendis cum corrupti.?</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>Data Analysis</h3>
+                <p>As a data enthusiast, I love delving into projects that involve uncovering insights and trends.
+                    During my internship in data science, I worked on fascinating projects like forecasting and stock
+                    market prediction. I'm eager to leverage my skills to help you make informed decisions based on
+                    data.</p>
+                <a href="#" class='btn read-more-btn'>Read More</a>
+                <!-- The popup box -->
+                <div id="myModal4" class="popup">
+                    <div class="popup-content">
+                        <span class="close">&times;</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab impedit tenetur quos sint,
+                            aliquid voluptate totam fugiat iste consectetur ad ratione officiis magni nisi, distinctio
+                            adipisci possimus reiciendis cum corrupti.?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="image1.png" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="final2.png" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="final3.png" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image4.png" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image5.png" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="image6.jpeg" alt=" ">
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, at ipsam! In, consectetur esse.
+                        Expedita provident voluptatem at deleniti tempore, minima totam nulla assumenda maxime, ipsam
+                        iusto tenetur, animi voluptas?</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CONTACT SECTION DESIGN-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="322797f1-731f-40de-adf8-e67a616ac151">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+
+            <textarea name="message" id=" " cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+    </section>
+
+    <!--FOOTER DESIGN-->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by @shrutiwaghamare | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+
+    <!--SCROLL REVEAL JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--TYPED JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--MAIN JS-->
+    <script src="main.js"></script>
+
+
+</body>
+
+</html>
