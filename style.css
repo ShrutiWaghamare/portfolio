@@ -249,7 +249,7 @@ span {
     transition: .5s ease;
 }
 
-.services-container  {
+.services-container {
     border-color: var(--main-color);
     transform: scale(1.02);
 }
@@ -818,7 +818,7 @@ span {
 }
 
 .services-box h3 {
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 .services-box p {
@@ -883,8 +883,16 @@ span {
     transform: translateY(0);
 }
 
+.portfolio-layer h2 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    margin: 0;
+}
+
 .portfolio-layer h4 {
-    font-size: 2.2rem;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
 }
 
 .portfolio-layer p {
@@ -1131,7 +1139,7 @@ span {
     /* Full height */
     overflow: auto;
     /* Enable scroll if needed */
-    background: #585eaa;
+    background: #292d51;
     /* Black with opacity */
     text-align: center;
     /* Center the content */
@@ -1176,13 +1184,13 @@ span {
 .popup-content::-webkit-scrollbar {
     width: 12px;
     /* Width of the scrollbar */
-    /* border-radius: 20px; */
-    /* Border radius of the scrollbar track */
+/* border-radius: 20px; */
+/* Border radius of the scrollbar track */
 /* } */
 
 /* .popup-content::-webkit-scrollbar-thumb { */
-    /* background-color: #888; */
-    /* Color of the scrollbar thumb */
-    /* border-radius: 20px; */
-    /* Border radius of the scrollbar thumb */
-/* } */ 
+/* background-color: #888; */
+/* Color of the scrollbar thumb */
+/* border-radius: 20px; */
+/* Border radius of the scrollbar thumb */
+/* } */

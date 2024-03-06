@@ -1,4 +1,4 @@
-/*--------------------------Toggle icon navbar----------------------------*/
+// * --------------------------Toggle icon navbar----------------------------* /
 
 let menuIcon = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
@@ -62,6 +62,8 @@ const typed = new Typed('.multiple-text', {
     backDelay: 900,
     loop: true,
 });
+
+
 document.addEventListener('DOMContentLoaded', function () {
     const readMoreButtons = document.querySelectorAll('.read-more-btn');
     const popups = document.querySelectorAll('.popup');
@@ -107,5 +109,6 @@ window.onclick = function (event) {
     }
 }
 
-var test = document.getElementById('btn-1');
-test.addEventListener('click',)
+document.getElementById('read-button').addEventListener('click', function () {
+    document.getElementById('about').scrollIntoView({ behavior: 'smooth' });
+});
